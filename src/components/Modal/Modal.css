@@ -1,0 +1,101 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  font-size: 17px;
+}
+
+.modal-content p{
+  margin-top: 30px;
+}
+
+.yearInputBox {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.yearInputBox input {
+  width: 80px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.rangeBox {
+  margin-top: 40px;
+  color: white;
+  font-size: 16px;
+}
+
+.rangeBox input {
+  width: 85%;
+  margin-top: 5px;
+}
+.selectPack{
+  margin-top: 30px;
+}
+
+.selectPack select {
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.saveBtn {
+  
+  margin-top: 40px;
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #666;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backBtn{
+  background: #333;
+  color: #949494;
+  outline: none;
+  border: 0;
+  margin-right: 400px;
+}
+
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+.calendar-wrapper {
+  margin-top: 50px;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.calendar-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  font-size: 20px;
+}
+.underlined{
+  border-bottom: 1px solid #fff;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+@keyframes fadeIn {
+    from{
+      opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

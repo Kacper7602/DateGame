@@ -1,0 +1,19 @@
+.exercise-mode {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.exit-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #666;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 10;
+}
